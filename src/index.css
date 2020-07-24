@@ -1,0 +1,54 @@
+@import './utils/simplebar.min.css';
+
+:root {
+    --sT: 50px;
+    --sL: 50px;
+    --sR: 250px;
+
+    --sR-t: 40px;
+
+    --c1-main: #00004d;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+body {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#poweredit {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#bottomPanel {
+    position: absolute;
+    top: var(--sT);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.gjs-cv-canvas {
+    top: 0px;
+    width: 100%;
+    height: calc(100% - 2px);
+}
+
+@import './topPanel/topPanel.css';
+@import './leftPanel/leftPanel.css';
+@import './centerPanel/centerPanel.css';
+@import './rightPanel/rightPanel.css';

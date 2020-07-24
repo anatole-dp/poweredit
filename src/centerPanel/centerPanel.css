@@ -1,0 +1,7 @@
+#centerPanel {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: var(--sL);
+    right: var(--sR);
+}

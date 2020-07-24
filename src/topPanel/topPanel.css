@@ -1,0 +1,68 @@
+#topPanel {
+    position: absolute;
+    top: 0px;
+    height: var(--sT);
+    left: 0px;
+    right: 0px;
+    padding: 0px;
+}
+
+#topPanel_title {
+    position: relative;
+    float: left;
+    height: 100%;
+}
+
+#topPanel_title .gjs-pn-buttons {
+    height: 100%;
+}
+
+.topPanel_title {
+    font-size: 21px;
+}
+
+#topPanel_windowControl {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#topPanel_windowControl .gjs-pn-buttons {
+    height: 100%;
+}
+
+.topPanel_windowControl {
+    height: 100%;
+    font-size: 27px;
+    margin-right: 5px;
+    padding: 10px 15px 10px 15px;
+}
+
+#topPanel_settings {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 60px;
+    border-left: 1px solid black;
+}
+
+#topPanel_settings .gjs-pn-buttons {
+    height: 100%;
+    width: 100%;
+}
+
+.topPanel_settings {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-size: 33px;
+}
+
+#topPanel_save {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 300px;
+    background-color: red;
+}

@@ -1,0 +1,7 @@
+#leftPanel {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: var(--sL);
+}
